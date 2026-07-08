@@ -1,0 +1,15 @@
+# API 密钥——绝不上传
+.env
+.env.*
+
+# Python 运行产物
+__pycache__/
+*.pyc
+
+# 系统文件
+.DS_Store
+
+# slides 产线的中间产物(保留 gen.py / build.js,忽略生成的 html 与预览图)
+slides/_src/html/
+slides/_src/prev_*.png
+slides/_src/shot.js
